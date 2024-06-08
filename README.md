@@ -14,14 +14,14 @@ Transform your text into beautiful ASCII art with customizable options using Web
 
 ## Overview
 
-Ascii Art Web is a webpage written in [go] , [HTML] and [CSS]. It allows you to convert plain text into ASCII art, with the option to customize the text by choosing the banner you want.
+Ascii Art Web is a webpage written in [Go] , [HTML] and [CSS]. It allows you to convert plain text into ASCII art, with the option to customize the text by choosing the banner you want.
 
 ## Installation
 
 To install Ascii Art Web, you can use `go get`:
 
 ```bash
-go get github.com/oqritel/ascii-art-Web
+go get github.com/0xZED88/ascii-art-Web
 ```
 
 ## Usage
@@ -69,8 +69,8 @@ This web App handled so far errors :
 
 ## Authors
 This Web App it's been programmed and Designed by : 
-- Othman Qritel
 - Zayd Zitan
+- Othman Qritel
 - Mohamed Tawil
 
 ## Contributing
