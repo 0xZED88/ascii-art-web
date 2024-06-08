@@ -22,12 +22,6 @@ var (
 	ResData Status // re
 )
 
-/*type result struct {
-	Result string
-}
-var re result
-*/
-
 func StartServer() {
 	// Creating Local Server
 	fmt.Println("Server is Working succesfully....")
