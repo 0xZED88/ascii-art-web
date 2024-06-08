@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ascii-Art Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css" />
+
+</head>
+
+<body>
+    <div class="inputContainer">
+        <div class="title">
+            Ascii-Art-Web Project
+        </div>
+        <form class="container" action="/ascii-art" method="post">
+
+            <div class="textarea">
+                <textarea name="name" placeholder="Your text here..." maxlength="1000" required></textarea>
+            </div>
+
+            <div class="banner"> 
+                 <!-- First Banner-->
+
+                <div class="radioButton">
+                    <input id="standard" type="radio" name="banner" value="standard" checked>
+                    <label for="standard">standard</label>
+                </div>
+                <!-- Secound Banner-->
+                <div class="radioButton">
+                    <input id="shadow" type="radio" name="banner" value="shadow" >
+                    <label for="shadow">shadow</label>
+                </div>
+                <!-- Third Banner-->
+                <div class="radioButton">
+                    <input id="thinkertoy" type="radio" name="banner" value="thinkertoy" >
+                    <label for="thinkertoy">thinkertoy</label>
+                </div>
+            </div>
+            <div class="centerButton">
+                <input class="button" type="submit" id="texts">
+            </div>
+        </form>
+    </div>
+
+   
+</body>
+
+</html>

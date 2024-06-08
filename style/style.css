@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: linear-gradient(to top, #e2e2e2, #c9d6ff);
+    margin: 0; 
+    height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+}
+
+  
+.inputContainer {
+    margin-top: 150px;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    background-color: rgba(255, 255, 255,0.5);
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #6980cd;
+}
+
+.Title{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 30px;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+textarea {
+    padding: 5px;
+    width: 80%;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.textarea {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 5px 20px;
+    border-radius: 3px;
+    background: #c9d6ff;
+    cursor: pointer;
+    border: 1px solid #c9d6ff;
+    transition: all 0.3s;
+}
+
+.button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.centerButton{
+    display: flex;
+    justify-content: center;
+    margin-bottom:5px ;
+}
+.centerBottons{
+    display: flex;
+    justify-content: center;
+    margin-bottom:5px ;
+}
+
+.centerButton2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom:10px;
+}
+
+.button2 {
+    /* display: flex; */
+    flex-direction: column;
+    margin-left: 49px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: #c9d6ff;
+    cursor: pointer;
+    color: #4e5775;
+    border: 1px solid #c9d6ff;
+    font-size: 25px;
+    font-weight:500;
+    transition: all 0.3s;
+    flex-wrap: wrap;
+}
+.button2:hover {    border-radius: 10px;
+    box-shadow: 0 0 15px ￼#6980cd;
+    background: #78819f;
+
+    color:#ffffff;
+}
+
+.result2 {
+    width: 85%;
+
+    margin-right:50px;
+    margin-left:50px;
+    height: 60%;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 10px;
+    overflow: auto;
+    scrollbar-color:  #c9d6ff #e2e2e2;
+}
+
+
+@media screen and (max-width: 1105px) {
+    .inputContainer {
+        width: 550px;
+    }
+    .result {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .inputContainer {
+        width: 80%;
+    }
+    .result {
+        width: 90%;
+    }
+}
